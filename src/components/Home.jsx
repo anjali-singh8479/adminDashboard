@@ -11,8 +11,9 @@ const Home = () => {
        <FeaturedInfo/>
        <Chart grid title="User Analytics" datakey="ActiveUser" data={userdata}/>
        <div className="homewidgets">
+       <WidgetsSm/> 
         <WidgetsLg/>
-        <WidgetsSm/>
+       
        </div>
     </div>
   )
