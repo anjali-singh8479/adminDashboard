@@ -6,6 +6,7 @@ import {RiProductHuntLine} from "react-icons/ri"
 import{BiDollar} from "react-icons/bi"
 import {CiMail} from "react-icons/ci"
 import {TbMessage} from "react-icons/tb"
+import { Link } from 'react-router-dom'
 const Sidebar = () => {
   return (
 <>
@@ -16,7 +17,9 @@ const Sidebar = () => {
             <ul className='sidebar-list className="sidebar-list-item"'>
                 <li className="sidebar-list-item active">
                    <MdLineStyle/>
-                   Home 
+                  <Link to="/" className="link">
+                  Home 
+                  </Link>
                 </li>
                 <li className="sidebar-list-item">
                    <MdTimeline/>
@@ -33,11 +36,15 @@ const Sidebar = () => {
             <ul className='sidebar-list className="sidebar-list-item"'>
                 <li className="sidebar-list-item">
                    <FiUser/>
-                   user 
+                  <Link to="/newuser" className="link">
+                  user 
+                  </Link>
                 </li>
                 <li className="sidebar-list-item">
                    <RiProductHuntLine/>
-                   Products
+                   <Link to="/newproduct" className="link">
+                 products 
+                  </Link>
                 </li>
                 <li className="sidebar-list-item">
                    <BiDollar/>

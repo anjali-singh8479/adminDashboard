@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/user.css";
-import {FiUser} from "react-icons/fi"
+import {MdPublish} from "react-icons/md"
+import { FiUser } from "react-icons/fi";
 import { Link } from "react-router-dom";
 const User = () => {
   return (
@@ -14,7 +15,7 @@ const User = () => {
       <div className="usercontainer">
         <div className="usershow">
           <div className="usershowtop">
-            <img className="usershow-image" src="public\WhatsApp Image 2023-03-24 at 6.25.47 PM.jpeg"></img>
+            <img className="usershow-image" src="/WhatsApp Image 2023-03-24 at 6.25.47 PM.jpeg"></img>
             <div className="usershowtoptitle">
                 <span className="usershowusername">Anjali Singh</span>
                 <span className="usershowusertitle"></span>
@@ -76,8 +77,8 @@ const User = () => {
                 </div>
                 <div className="userupdateright">
                     <div className="userupdateupload">
-                    <img className="userupdate-image" src="public\WhatsApp Image 2023-03-24 at 6.25.47 PM.jpeg"></img>
-                    <label htmlFor="file">  <FiUser/></label>
+                    <img className="userupdate-image" src="/WhatsApp Image 2023-03-24 at 6.25.47 PM.jpeg"></img>
+                    <label htmlFor="file"><MdPublish/></label>
                     <input type="file" id="file" style={{display:"none"}}></input>
                     </div>
                     <button className="userupdatebutton">update</button>
