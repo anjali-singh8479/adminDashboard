@@ -1,5 +1,7 @@
-import React from "react";
+ import React from "react";
 import "../Styles/widgetsSm.css";
+import {MdVisibility} from "react-icons/md"
+
 const WidgetsSm = () => {
   return (
     <div className="widgetSm">
@@ -15,7 +17,7 @@ const WidgetsSm = () => {
             <span className="widgetSm-username">Anjali Singh</span>
             <span className="widgetSm-usertitle">Software Engineer</span>
           </div>
-          <button className="widgetSm-button">Dispaly</button>
+          <button className="widgetSm-button"><MdVisibility/> Dispaly</button>
         </li>
         <li className="widgetSm-item">
           <img
@@ -27,7 +29,7 @@ const WidgetsSm = () => {
             <span className="widgetSm-username">Anjali Singh</span>
             <span className="widgetSm-usertitle">Software Engineer</span>
           </div>
-          <button className="widgetSm-button">Dispaly</button>
+          <button className="widgetSm-button"><MdVisibility/> Dispaly</button>
         </li>
         <li className="widgetSm-item">
           <img
@@ -39,7 +41,7 @@ const WidgetsSm = () => {
             <span className="widgetSm-username">Anjali Singh</span>
             <span className="widgetSm-usertitle">Software Engineer</span>
           </div>
-          <button className="widgetSm-button">Dispaly</button>
+          <button className="widgetSm-button"><MdVisibility/> Dispaly</button>
         </li>
         <li className="widgetSm-item">
           <img
@@ -51,7 +53,7 @@ const WidgetsSm = () => {
             <span className="widgetSm-username">Anjali Singh</span>
             <span className="widgetSm-usertitle">Software Engineer</span>
           </div>
-          <button className="widgetSm-button">Dispaly</button>
+          <button className="widgetSm-button"><MdVisibility/> Dispaly</button>
         </li>
         <li className="widgetSm-item">
           <img
@@ -63,7 +65,7 @@ const WidgetsSm = () => {
             <span className="widgetSm-username">Anjali Singh</span>
             <span className="widgetSm-usertitle">Software Engineer</span>
           </div>
-          <button className="widgetSm-button">Dispaly</button>
+          <button className="widgetSm-button"><MdVisibility/> Dispaly</button>
         </li>
       </ul>
     </div>
